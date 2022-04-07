@@ -1,4 +1,3 @@
-var nombre = "Randy";
+//Tipos de datos
 
-console.log(nombre);
-
+var nombre = "Carlos"; //String
