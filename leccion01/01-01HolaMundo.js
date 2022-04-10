@@ -1,4 +1,4 @@
 var nombre = "Randy";
 
-console.log(nombre);
+console.log("Hola soy " + nombre + " desde JavaScript");
 
