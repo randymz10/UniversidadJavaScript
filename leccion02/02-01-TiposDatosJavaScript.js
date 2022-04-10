@@ -6,7 +6,7 @@ var string = "Carlos";
 console.log(string);
 
 
-// Tipo de dato numérico
+// Tipo de dato number
 var numero = 1000;
 console.log(numero);
 
@@ -19,3 +19,7 @@ var objeto = {
 }
 
 console.log(objeto);
+
+//TypeOf en JavaScript
+
+console.log(typeof string);
