@@ -58,3 +58,15 @@ console.log(typeof y)
 //TypeOf en JavaScript
 
 console.log(typeof string);
+
+//Arreglos
+
+var autos = ['BMW', 'Audi', 'Volvo'];
+console.log(autos);
+console.log(typeof autos);
+
+// Valores vacíos
+
+var z = '';
+console.log(z);
+console.log(typeof z);
