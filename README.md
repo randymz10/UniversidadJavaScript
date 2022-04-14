@@ -12,6 +12,7 @@ Código de las lecciones, ejercicios y laboratorios del curso Universidad JavaSc
 4. Uso de var, let y const
 5. Operadores
 6. Conversión de String Number
+7. Ejercicios y ejemplos
 
 ---
 ## Autor
