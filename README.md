@@ -13,6 +13,7 @@ Código de las lecciones, ejercicios y laboratorios del curso Universidad JavaSc
 5. Operadores
 6. Conversión de String Number
 7. Ejercicios y ejemplos
+8. Sentencias de control (if/else, switch)
 
 ---
 ## Autor
