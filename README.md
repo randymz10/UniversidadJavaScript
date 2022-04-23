@@ -14,6 +14,9 @@ Código de las lecciones, ejercicios y laboratorios del curso Universidad JavaSc
 6. Conversión de String Number
 7. Ejercicios y ejemplos
 8. Sentencias de control (if/else, switch)
+9. Ciclos en JavaScript
+10. Arreglos
+11. Funciones
 
 ---
 ## Autor
