@@ -8,16 +8,15 @@ Código de las lecciones, ejercicios y laboratorios del curso Universidad JavaSc
 
 1. Hola Mundo en JavaScript
 2. Tipos de datos en JavaScript
-3. Concatenación de cadenas
-4. Uso de var, let y const
-5. Operadores
-6. Conversión de String Number
-7. Ejercicios y ejemplos
-8. Sentencias de control (if/else, switch)
-9. Ciclos en JavaScript
-10. Arreglos
-11. Funciones
+3. Operadores en JavaScrit
+4. Sentencias de control en JavaScript
+5. Ciclos en JavaScript
+6. Arreglos en JavaScript
+7. Funciones en JavaScript
+8. Objetos en JavaScript
 
 ---
 ## Autor
 [@randymz10](https://github.com/randymz10)
+**LinkedIn:** https://www.linkedin.com/in/randymz10/
+**Email:** randymz10@gmail.com
