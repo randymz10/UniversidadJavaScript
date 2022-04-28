@@ -1,15 +1,19 @@
-//Clases en Javascript
-
 class Persona{
 
-    static contadorObjetosPersona = 0; //Atributo de clase
-
-    email = 'Valor default email'; //Atributo de nuestros objetos
+    static contadorPersona = 0; //Atributo de clase
+    
+    static get MAX_OBJ(){
+        return 5;
+    }
 
     constructor(nombre, apellido){
         this._nombre = nombre;
         this._apellido = apellido;
-        Persona.contadorObjetosPersona++;
+        if(Persona.contadorPersona < Persona.MAX_OBJ){
+            this.idPersona = ++Persona.contadorPersona;
+        }else{
+            console.log('Se alcanzó el máximo de objetos');
+        }
     }
 
     get nombre(){
@@ -29,7 +33,11 @@ class Persona{
     }
 
     nombreCompleto(){
-        return this._nombre + ' ' + this._apellido;
+        return this.idPersona + ' ' + this._nombre + ' ' + this._apellido;
+    }
+
+    toString(){
+        return this.nombreCompleto();
     }
 
     static saludar(){
@@ -63,32 +71,24 @@ class Empleado extends Persona{
     }
 }
 
+
 let persona1 = new Persona('Randy', 'Munoz');
-console.log( persona1 );
-
-let persona2 = new Persona('Carlos', 'Lara');
-console.log( persona2 );
-
-
-console.log(persona1.nombre);//get nombre
-persona1.nombre = 'Eduardo'; // set nombre('Eduardo')
+console.log( persona1.toString() );
 
 let empleado1 = new Empleado('Maria', 'Jimenez', 'Sistemas');
-console.log(empleado1.nombreCompleto())
+console.log( empleado1.toString() );
 
-console.log(empleado1.toString());
+console.log( Persona.contadorPersona );
 
-//persona1.saludar(); no es posible llamar un metodo static desde un objeto
-Persona.saludar();
-Persona.saludar2(persona1);
+let persona2 = new Persona('Karla', 'Ramirez');
+console.log( persona2.toString() );
 
-Empleado.saludar();
-Persona.saludar2(persona2);
+console.log( Persona.MAX_OBJ);
+Persona.MAX_OBJ = 10;
 
-console.log(persona1.contadorObjetosPersona);
-console.log(Persona.contadorObjetosPersona);
-console.log(persona1.email);
-console.log(empleado1.email);
-console.log(Persona.email);
-console.log(Empleado.email);
+console.log( Persona.MAX_OBJ);
 
+let persona3 = new Persona('Maralied', 'Tafur');
+let persona4 = new Persona('Milagdy', 'Viñoles');
+let persona5 = new Persona('Ricardo', 'Muñoz');
+console.log( persona4.toString());
