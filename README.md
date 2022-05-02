@@ -14,6 +14,9 @@ Código de las lecciones, ejercicios y laboratorios del curso Universidad JavaSc
 6. Arreglos en JavaScript
 7. Funciones en JavaScript
 8. Objetos en JavaScript
+9. Clases en JavaScript
+10. Ejercicio de herencia
+11. Sistema de ventas con JavaScript
 
 ---
 ## Autor
