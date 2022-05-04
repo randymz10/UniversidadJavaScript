@@ -17,6 +17,9 @@ Código de las lecciones, ejercicios y laboratorios del curso Universidad JavaSc
 9. Clases en JavaScript
 10. Ejercicio de herencia
 11. Sistema de ventas con JavaScript
+12. Proyecto MundoPC
+13. Programación orientada a objetos en Javascript
+14. Manejo de errores en JavaScript
 
 ---
 ## Autor
