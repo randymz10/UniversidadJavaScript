@@ -20,6 +20,9 @@ Código de las lecciones, ejercicios y laboratorios del curso Universidad JavaSc
 12. Proyecto MundoPC
 13. Programación orientada a objetos en Javascript
 14. Manejo de errores en JavaScript
+15. Funciones flecha en JavScript
+16. Funciones Callback en JavaScript
+17. Promesas
 
 ---
 ## Autor
