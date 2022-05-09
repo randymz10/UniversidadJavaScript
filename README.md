@@ -22,10 +22,12 @@ Código de las lecciones, ejercicios y laboratorios del curso Universidad JavaSc
 14. Manejo de errores en JavaScript
 15. Funciones flecha en JavScript
 16. Funciones Callback en JavaScript
-17. Promesas
+17. Promesas en JavaScript
 
 ---
 ## Autor
 [@randymz10](https://github.com/randymz10)
+
 **LinkedIn:** https://www.linkedin.com/in/randymz10/
+
 **Email:** randymz10@gmail.com
