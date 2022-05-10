@@ -28,7 +28,7 @@
 
         //Por Etiqueta
         let parrafos = document.getElementsByTagName('p');
-        console.log(`No. párrafos: ${parrafos.length}`);
+        console.log(`No. párrafos con Tag: ${parrafos.length}`);
 
         for(let i = 0; i < parrafos.length; i++){
             console.log(`${i} - ${parrafos[i].innerHTML}`);
@@ -36,10 +36,18 @@
 
         //Por clase
         let elementosClass = document.getElementsByClassName('azul');
-        console.log(`No. elementos: ${elementosClass.length}`);
+        console.log(`No. elementos con Class: ${elementosClass.length}`);
 
         for(let i = 0; i < elementosClass.length; i++){
             console.log(`${i} - ${elementosClass[i].innerHTML}`);
+        }
+
+        //querySelectorAll
+        let elementosQuerys = document.querySelectorAll('p.azul');
+        console.log(`No. elementos con Query: ${elementosQuerys.length}`);
+
+        for(let i = 0; i < elementosQuerys.length; i++){
+            console.log(`${i} - ${elementosQuerys[i].innerHTML}`);
         }
 
         console.log('Saludos desde JavaScript')
