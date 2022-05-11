@@ -24,6 +24,7 @@ Código de las lecciones, ejercicios y laboratorios del curso Universidad JavaSc
 16. Funciones Callback en JavaScript
 17. Promesas en JavaScript
 18. Manejo del DOM HTML en JavaScript
+19. Manejo de eventos con DOM HTML y JavaScript
 
 ---
 ## Autor
