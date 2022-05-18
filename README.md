@@ -25,6 +25,8 @@ Código de las lecciones, ejercicios y laboratorios del curso Universidad JavaSc
 17. Promesas en JavaScript
 18. Manejo del DOM HTML en JavaScript
 19. Manejo de eventos con DOM HTML y JavaScript
+20. Aplicación calculadora
+21. Aplicación listado de personas
 
 ---
 ## Autor
