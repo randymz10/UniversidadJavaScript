@@ -27,6 +27,7 @@ Código de las lecciones, ejercicios y laboratorios del curso Universidad JavaSc
 19. Manejo de eventos con DOM HTML y JavaScript
 20. Aplicación calculadora
 21. Aplicación listado de personas
+22. Aplicación Reloj digital
 
 ---
 ## Autor
