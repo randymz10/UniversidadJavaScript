@@ -42,7 +42,7 @@ let cargarCabecero = ()=>{
 }
 
 const formatoMoneda = (valor)=>{
-    return valor.toLocaleString('en-US', {style:'currency', currency:'USD', minimumFractionDigits:2});
+    return valor.toLocaleString('pt-BR', {style:'currency', currency:'BRL', minimumFractionDigits:2});
 }
 
 const formatoPorcentaje = (valor)=>{
@@ -115,4 +115,23 @@ const eliminarEgreso = (id)=>{
     egresos.splice(indiceEliminar, 1);
     cargarCabecero();
     cargarEgresos();
+}
+
+let agregarDato = ()=>{
+    let forma = document.forms['forma'];
+    let tipo = forma['tipo'];
+    let descripcion = forma['descripcion'];
+    let valor = forma['valor'];
+    if(descripcion.value !== '' && valor.value !== ''){
+        if(tipo.value === 'ingreso'){
+            ingresos.push(new Ingreso(descripcion.value, +valor.value));
+            cargarCabecero();
+            cargarIngresos();
+        }
+        else if(tipo.value === 'egreso'){
+            egresos.push(new Egreso(descripcion.value, +valor.value));
+            cargarCabecero();
+            cargarEgresos();
+        }
+    }
 }
