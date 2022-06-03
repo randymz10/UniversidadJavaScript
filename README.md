@@ -18,7 +18,7 @@ Code of the lessons, exercises and laboratories of the JavaScript University cou
 9. Classes in JavaScript
 10. Inheritance Exercise
 11. JavaScript sales system
-12. PC World Project
+12. [PC World Project](https://github.com/randymz10/UniversidadJavaScript/tree/master/MundoPC)
 13. Object Oriented Programming in Javascript
 14. Error handling in JavaScript
 15. Arrow Functions in JavaScript
@@ -26,10 +26,10 @@ Code of the lessons, exercises and laboratories of the JavaScript University cou
 17. Promises in JavaScript
 18. Handling the HTML DOM in JavaScript
 19. Event Handling with HTML DOM and JavaScript
-20. Calculator App
-21. Application list of people
-22. Digital Clock App
-23. Budget App
+20. [Calculator App](https://github.com/randymz10/UniversidadJavaScript/tree/master/leccion18)
+21. [Application list of people](https://github.com/randymz10/UniversidadJavaScript/tree/master/leccion19)
+22. [Digital Clock App](https://github.com/randymz10/UniversidadJavaScript/tree/master/leccion20)
+23. [Budget App](https://github.com/randymz10/UniversidadJavaScript/tree/master/leccion21)
 
 ---
 ## Author
