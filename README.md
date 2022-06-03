@@ -1,37 +1,38 @@
-# Universidad JavaScript
+# JavaScript University
 ---
-## Descripción
-Código de las lecciones, ejercicios y laboratorios del curso Universidad JavaScript con el Ing Ubaldo Acosta de Udemy.
+
+## Description
+Code of the lessons, exercises and laboratories of the JavaScript University course with Ing Ubaldo Acosta from Udemy.
 
 ---
-## Sumario
+## Summary
 
-1. Hola Mundo en JavaScript
-2. Tipos de datos en JavaScript
-3. Operadores en JavaScrit
-4. Sentencias de control en JavaScript
-5. Ciclos en JavaScript
-6. Arreglos en JavaScript
-7. Funciones en JavaScript
-8. Objetos en JavaScript
-9. Clases en JavaScript
-10. Ejercicio de herencia
-11. Sistema de ventas con JavaScript
-12. Proyecto MundoPC
-13. Programación orientada a objetos en Javascript
-14. Manejo de errores en JavaScript
-15. Funciones flecha en JavScript
-16. Funciones Callback en JavaScript
-17. Promesas en JavaScript
-18. Manejo del DOM HTML en JavaScript
-19. Manejo de eventos con DOM HTML y JavaScript
-20. Aplicación calculadora
-21. Aplicación listado de personas
-22. Aplicación Reloj digital
-23. Aplicación Presupuesto
+1. Hello World in JavaScript
+2. Data types in JavaScript
+3. Operators in JavaScrit
+4. Control statements in JavaScript
+5. Loops in JavaScript
+6. Arrangements in JavaScript
+7. Functions in JavaScript
+8. Objects in JavaScript
+9. Classes in JavaScript
+10. Inheritance Exercise
+11. JavaScript sales system
+12. PC World Project
+13. Object Oriented Programming in Javascript
+14. Error handling in JavaScript
+15. Arrow Functions in JavaScript
+16. Callback Functions in JavaScript
+17. Promises in JavaScript
+18. Handling the HTML DOM in JavaScript
+19. Event Handling with HTML DOM and JavaScript
+20. Calculator App
+21. Application list of people
+22. Digital Clock App
+23. Budget App
 
 ---
-## Autor
+## Author
 [@randymz10](https://github.com/randymz10)
 
 **LinkedIn:** https://www.linkedin.com/in/randymz10/
